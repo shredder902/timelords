@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "timelord",
+  "version": "${version}",
+  "name": "Time Lord",
+  "description": "Повелитель времени: пассивное замедление и активная остановка времени.",
+  "authors": ["you"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.example.timelord.TimeLord"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
